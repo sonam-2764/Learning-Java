@@ -11,6 +11,12 @@ public class Program4 {
         int b = ab.nextInt();
         System.out.println("enter the value of height ");
         int c =ab.nextInt();
+
+        /*sout("enter the value of length breadth height");
+        length = ab.nextint();
+        breadth = ab.nextint();
+        height = ab.nextint();*/
+
         ab.close();
         int area = 2*((a*b)+(b*c)+(c*a));
         System.out.println("total area of cuboid is "+area);
